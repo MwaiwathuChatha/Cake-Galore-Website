@@ -4,8 +4,8 @@ import nyquix from "@/public/nyquix.png"
 
 const Navbar = () => {
   return (
-    <div className="navbar text-neutral-content mb-5">
-      <div className="navbar bg-base-100 bg-primary p-5 text-white rounded-xl">
+    <div className="navbar text-neutral-content">
+      <div className="navbar bg-base-100 bg-primary text-white opacity-84 rounded-xl">
         <div tabIndex={0} role="button" className="btn btn-ghost btn-circle avatar">
               <div className="w-10 rounded-full">
                 <img src={nyquix.src} />
@@ -13,6 +13,7 @@ const Navbar = () => {
             </div>
 
           <div className="flex-1">
+            
             <a className="btn btn-ghost text-3xl font-bold">Cakes Galore</a>
           </div>
 

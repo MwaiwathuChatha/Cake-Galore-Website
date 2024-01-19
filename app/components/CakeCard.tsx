@@ -14,12 +14,12 @@ import cast from "@/public/pexels-castorly-stock-3650436.jpg"
 
 const CakeCard = () => {
   return (
-    <div>
+    <div className='text-black'>
     <div className='flex flex-row'>
-        <div className="card basis-1/2 bg-base-100 shadow-xl m-5">
+        <div className="card basis-1/2 bg-base-100 shadow-xl m-5" >
             <figure><img src={sab.src}/></figure>
             <div className="card-body" >
-                <h1 className="card-title">Cakes</h1>
+                <h1 className="card-title text-black">Cakes</h1>
                     <p>We got a sweet treat to light up any occasion!</p>
                         <div className="card-actions justify-end">
                             <button className="btn btn-primary">Order Now</button>
