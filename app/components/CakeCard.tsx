@@ -1,15 +1,7 @@
 import React from 'react'
-import cake1 from "@/public/pexels-lil-artsy-1793037.jpg"
-import cake3 from "@/public/pexels-sadman-chowdhury-1619483.jpg"
 import cookies from "@/public/cookiesbuttah.jpg"
-import biscuit from "@/public/biscuit.jpg"
 import biscuit2 from "@/public/biscuit2.jpg"
-import cake4 from "@/public/pexels-maria-orlova-4946407.jpg"
-import yin from "@/public/yin.jpg"
-import sadman from "@/public/sadman.jpg"
 import sab from "@/public/pexels-sebastian-coman-photography-3791088.jpg"
-import yes1 from "@/public/yes1.jpg"
-import yes2 from "@/public/yes2.jpg"
 import cast from "@/public/pexels-castorly-stock-3650436.jpg"
 
 const CakeCard = () => {
