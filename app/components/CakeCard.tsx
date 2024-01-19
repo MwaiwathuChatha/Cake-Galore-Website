@@ -19,22 +19,18 @@ const CakeCard = () => {
         <div className="card basis-1/2 bg-base-100 shadow-xl m-5" >
             <figure><img src={sab.src}/></figure>
             <div className="card-body" >
-                <h1 className="card-title text-black">Cakes</h1>
-                    <p>We got a sweet treat to light up any occasion!</p>
-                        <div className="card-actions justify-end">
-                            <button className="btn btn-primary">Order Now</button>
-                        </div>
+                <h1 className="card-title text-black text-3xl font-bold">Cakes</h1>
+                   <span className='text-xl'> <p>We got a sweet treat to light up any occasion!</p></span>
+                        
             </div>
         </div>
 
         <div className="card basis-1/2 bg-base-100 shadow-xl m-5">
             <figure><img src={cast.src}/></figure>
             <div className="card-body" >
-                <h1 className="card-title">Cupcakes</h1>
-                    <p>Cupcakes, cupcakes and more cupcakes!!</p>
-                        <div className="card-actions justify-end">
-                            <button className="btn btn-primary">Order Now</button>
-                        </div>
+                <h1 className="card-title  text-black text-3xl font-bold">Cupcakes</h1>
+                <span className='text-xl'><p>Cupcakes, cupcakes and more cupcakes!!</p></span>
+                        
             </div>
         </div>
 
@@ -44,22 +40,18 @@ const CakeCard = () => {
         <div className="card basis-1/2 bg-base-100 shadow-xl m-5">
             <figure><img src={cookies.src}/></figure>
             <div className="card-body" >
-                <h1 className="card-title">Cookies</h1>
-                    <p>Freshly baked cookies make a wondeful treat anytime</p>
-                        <div className="card-actions justify-end">
-                            <button className="btn btn-primary">Order Now</button>
-                        </div>
+                <h1 className="card-title  text-black text-3xl font-bold">Cookies</h1>
+                <span className='text-xl'> <p>Freshly baked cookies make a wondeful treat anytime</p></span>
+                       
             </div>
         </div>
 
         <div className="card basis-1/2 bg-base-100 shadow-xl m-5">
             <figure><img src={biscuit2.src}/></figure>
             <div className="card-body" >
-                <h1 className="card-title">Biscuits</h1>
-                    <p>Nothing like some home baked bisuits to go along with a nice cup of tea</p>
-                        <div className="card-actions justify-end">
-                            <button className="btn btn-primary">Order Now</button>
-                        </div>
+                <h1 className="card-title  text-black text-3xl font-bold">Biscuits</h1>
+                <span className='text-xl'><p>Nothing like some home baked bisuits to go along with a nice cup of tea</p></span>
+                        
             </div>
         </div>
 

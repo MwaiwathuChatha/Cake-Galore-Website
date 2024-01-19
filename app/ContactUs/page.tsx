@@ -1,7 +1,7 @@
 import React from 'react';
 import back from '@/public/colorBack6.jpg'
 import Footer from '../components/Footer';
-import Navbar2 from '../components/Navbar2';
+import Navbar2 from '../components/Navbar';
 
 export default function Home() {
   return (
@@ -57,7 +57,11 @@ export default function Home() {
 </label>
 
 <div className='items-center justify-center flex flex-row'>
-  <textarea placeholder="Bio" className="textarea textarea-primary textarea-lg w-full max-w-xs basis-1/2" ></textarea>
+  <textarea placeholder="Message" className="textarea textarea-primary textarea-lg w-full max-w-xs basis-1/2" ></textarea>
+</div>
+
+<div className="items-center justify-center flex flex-row p-5">
+<button className="btn btn-neutral">Submit</button>
 </div>
 
 

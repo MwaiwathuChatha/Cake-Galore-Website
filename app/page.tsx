@@ -1,7 +1,7 @@
 import CakeCard from './components/CakeCard'
 import back3 from "@/public/colorBack3.jpg"
 import Footer from './components/Footer'
-import Navbar2 from './components/Navbar2'
+import Navbar2 from './components/Navbar'
 
 
 
