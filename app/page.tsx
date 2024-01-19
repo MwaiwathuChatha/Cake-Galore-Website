@@ -1,7 +1,15 @@
 import Image from 'next/image'
+import Link from 'next/link'
+import ProductCart from './components/ProductCart'
+import Navbar from './components/Navbar'
+import Carousel from './components/Carousel'
+import CakeCard from './components/CakeCard'
 
 export default function Home() {
   return(
-    <main><><h1>deez</h1></></main>
+    <main>
+      <Navbar />
+      <CakeCard />
+    </main>
   )
 }

@@ -2,21 +2,21 @@
 @tailwind components;
 @tailwind utilities;
 
+/*where we define custom properties*/
 :root {
   --foreground-rgb: 0, 0, 0;
-  --background-start-rgb: 214, 219, 220;
-  --background-end-rgb: 255, 255, 255;
 }
 
+/*where we can detect if user is in dark mode or not*/
 @media (prefers-color-scheme: dark) {
   :root {
     --foreground-rgb: 255, 255, 255;
-    --background-start-rgb: 0, 0, 0;
-    --background-end-rgb: 0, 0, 0;
+    
   }
 }
 
 body {
   color: rgb(var(--foreground-rgb));
   padding: 1rem;
+  background-color: burlywood;
 }
