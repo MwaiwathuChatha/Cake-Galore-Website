@@ -1,6 +1,5 @@
 import React from 'react';
 import back from '@/public/colorBack3.jpg'
-import Navbar from '../components/Navbar2';
 import Footer from '../components/Footer';
 import Navbar2 from '../components/Navbar2';
 
