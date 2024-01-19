@@ -1,5 +1,5 @@
 import React from 'react';
-import back from '@/public/colorBack3.jpg'
+import back from '@/public/colorBack6.jpg'
 import Footer from '../components/Footer';
 import Navbar2 from '../components/Navbar2';
 
