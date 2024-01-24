@@ -1,5 +1,5 @@
 import React from 'react'
-import cookies from "@/public/cookiesbuttah.jpg"
+import cookies from "@/public/cookies.jpg"
 import biscuit2 from "@/public/biscuit2.jpg"
 import sab from "@/public/pexels-sebastian-coman-photography-3791088.jpg"
 import cast from "@/public/pexels-castorly-stock-3650436.jpg"
